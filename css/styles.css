@@ -1,0 +1,135 @@
+body {
+  background-color: #e6eff6;
+  padding: 0;
+  margin: 3% auto 3% auto;
+  font-family: 'Karla', sans-serif;
+  width: 48%;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+/*TOP*/
+.main {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.75rem 0.75rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+}
+
+.top {
+  margin: 0;
+  padding: 2rem 2.5rem;
+}
+
+.top h1 {
+  margin: 0 0 0.8rem 0;
+  padding: 0;
+  color: #56bfbc;
+}
+
+.top h3 {
+  margin: 0;
+  padding: 0;
+  color: #d1e760;
+  margin: 1rem 0 0.8rem 0;
+}
+
+.top p {
+  margin: 0;
+  padding: 0;
+  color: #c8cbcf;
+  line-height: 2;
+}
+
+/*BOTTOM*/
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  background-color: #2bb3b1;
+  padding: 2rem 2.5rem;
+}
+
+.left h2 {
+  font-size: 1.2rem;
+  color: #f8fefe;
+}
+
+.left h3 {
+  font-size: 1.8rem;
+  color: #f8fefe;
+}
+
+span {
+  font-size: 0.8rem;
+  color: #f8fefe;
+  font-weight: 100;
+}
+
+.left p {
+  font-size: 1rem;
+  color: #f8fefe;
+}
+
+input[type=submit] {
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  color: #f8fefe;
+  padding: 0.8rem 0.2rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #bfdf32;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.75rem 0.75rem;
+}
+
+input:focus {
+  border-color: black;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+  /* border: none; */
+  border-color: black;
+  background-color: green;
+}
+.right {
+    background-color: #4abebd;
+    padding: 2rem 2.5rem;
+  }
+.right h3 {
+  font-size: 1.2rem;
+  color: #f8fefe;
+  padding: 0;
+  margin: 1rem 0 1rem 0;
+}
+.right p {
+  font-size: 0.8rem;
+  color: #f8fefe;
+  padding: 0;
+  margin: 0.45rem 0 0 0;
+}
+@media only screen and (max-width: 375px) {
+body {
+    width:90%;
+  }
+.top h1 {
+  font-size: 1.5rem;
+  letter-spacing: -0.1rem;
+}
+.top h3 {
+  font-size: 1rem;
+}
+.top p {
+  font-size: 0.8rem;
+}
+.bottom {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin:0.8rem auto;
+  }
+}
